@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for = "Username"> Username : </label>
+            <input type = "text" id = "Username" placeholder = "Username" name = "Username" />
+        </div>
+        <br>
+        <div>
+            <label for = "Password"> Password : </label>
+            <input type = "Password" id = "Password" placeholder = "Password" name="Password" />
+        </div>
+        <br>
+        <div>
+            <button type = "submit"> Submit </button>
+            <button type = "button"> Button </button>
+            <button type = "reset"> Reset </button>
+        </div>
+        <br>
+        <div>
+            <label> With input element : </label>
+            <!-- To create button with input -->
+            <input type = "submit">
+            <!-- By default it shows Submit without giving value -->
+            <input type = "button" value = "Button">
+            <!-- But creating button with input is not a good practice -->
+        </div>
+    </form>
+    <hr />
+    <div>
+        <form action="https://www.youtube.com/results">
+            <input type = "text" placeholder="Search in youtube" name ="search_query" />
+            <button type = "submit"> Search </button>
+        </form>
+    </div>
+</body>
+</html>

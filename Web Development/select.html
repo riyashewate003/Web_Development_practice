@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "/action">
+        <select name = "profession" id = "profession">
+            <option> Select your Profession </option>
+            <option value = "stu"> Student </option>
+            <option value = "dev"> Developer </option>
+            <option value = "pro" selected> Working Professional </option>
+        </select>
+        <br>
+        <br>
+        <label for = "vol"> Select your volume level : </label>
+        <input type = "range" name = "vol" id = "vol" min = "0" max = "100" step="10" value="30" />
+        <!-- value means predefined value -->
+        <br>
+        <br>
+        <label for = "feedback"> Feedback : </label>
+        <textarea name = "feedback" id = "feedback" cols="30" rows="10" placeholder="Enter your feedback here..."></textarea>
+        <button type="submit"> Submit </button>
+    </form>
+</body>
+</html>

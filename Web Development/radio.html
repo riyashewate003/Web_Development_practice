@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action = "/action">
+            <!-- name is same thus only one can be selected -->
+            <input type="radio" name = "fruit" id = "apple">
+            <label for="apple"> Apple </label>
+            <br>
+            <input type="radio" name = "fruit" id = "mango">
+            <label for="mango"> Mango </label>
+            <br>
+            <input type="radio" name = "fruit" id = "banana">
+            <label for="banana"> Banana </label>
+            <br>
+        </form>
+    </div>
+    <hr />
+    <div>
+        <form action = "/action">
+            <!-- name is not same thus all can be selected -->
+            <input type="radio" name = "barbie" id = "apple" value = "apple">
+            <label for="apple"> Apple </label>
+            <br>
+            <input type="radio" name = "fruit" id = "banana" value="banana">
+            <label for="banana"> Banana </label>
+            <br>
+            <input type="radio" name = "dance" id = "banana" value="banana">
+            <label for="banana"> Banana </label>
+            <br>
+            <br>
+            <button type="submit"> Submit </button>
+        </form>
+    </div>
+</body>
+</html>
